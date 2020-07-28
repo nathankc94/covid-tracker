@@ -45,7 +45,7 @@ yAxes: [
 },
 };
 
-const buildChartData = (data, casesType) => {
+const buildChartData = (data, casesType="cases") => {
     let chartData = [];
     let lastDataPoint;
     for(let date in data.cases) {
